@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Built-By: jeanfrancoisarcand
+Created-By: Apache Maven Bundle Plugin
+Bundle-License: https://glassfish.dev.java.net/public/CDDLv1.0.html
+Import-Package: com.sun.grizzly.http.servlet,com.sun.grizzly.tcp,com.s
+ un.grizzly.tcp.http11,com.sun.grizzly.util,com.sun.grizzly.util.buf,c
+ om.sun.grizzly.util.http,com.sun.grizzly.util.res,javax.servlet,javax
+ .servlet.http
+mode: development
+Bnd-LastModified: 1237881385378
+Export-Package: com.sun.grizzly.http.servlet;uses:="com.sun.grizzly.ut
+ il.http,javax.servlet.http,com.sun.grizzly.util.buf,com.sun.grizzly.t
+ cp,com.sun.grizzly.tcp.http11,javax.servlet,com.sun.grizzly.util.res,
+ com.sun.grizzly.util"
+Bundle-Version: 1.9.10
+Bundle-Name: grizzly-http-servlet
+Build-Jdk: 1.5.0_16
+Bundle-DocURL: http://www.sun.com
+Bundle-ManifestVersion: 2
+Bundle-Vendor: SUN Microsystems
+Bundle-SymbolicName: com.sun.grizzly.grizzly-http-servlet
+Tool: Bnd-0.0.255
+url: https://grizzly.dev.java.net
+implementation-version: 1.9.10
+package: com.sun.grizzly
+
